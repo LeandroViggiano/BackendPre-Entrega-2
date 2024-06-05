@@ -1,0 +1,17 @@
+<form id="form">
+    <label>Product:</label><input type="text" name="name" id="name">
+    <label>Price:</label><input type="number" name="price" id="price">
+    <input type="submit" value="SEND">
+</form>
+
+<form id="modifyForm">
+    <label>Modify Product:</label><input type="text" name="modifyName" id="modifyName">
+    <label>New Price:</label><input type="number" name="newPrice" id="newPrice">
+    <input type="submit" value="MODIFY">
+</form>
+
+<ul id="products">
+</ul>
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/index.js"></script>
